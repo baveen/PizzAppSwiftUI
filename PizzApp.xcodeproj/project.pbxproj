@@ -66,14 +66,10 @@
 				C6F7FEFF24669CB30015849A /* HistoryView */,
 				C6F7FEFE24669CAB0015849A /* MenuView */,
 				C6F7FEFB24669BFD0015849A /* OrderView */,
-				C6F7FEE7246674700015849A /* AppDelegate.swift */,
-				C6F7FEE9246674700015849A /* SceneDelegate.swift */,
 				C6F7FEEB246674700015849A /* ContentView.swift */,
-				C6F7FEED246674730015849A /* Assets.xcassets */,
-				C6F7FEF2246674730015849A /* LaunchScreen.storyboard */,
-				C6F7FEF5246674730015849A /* Info.plist */,
-				C6F7FEEF246674730015849A /* Preview Content */,
 				C6F7FF0324669DBC0015849A /* ContentHeaderView.swift */,
+				C6F7FF052466A0210015849A /* Others */,
+				C6F7FEEF246674730015849A /* Preview Content */,
 			);
 			path = PizzApp;
 			sourceTree = "<group>";
@@ -114,6 +110,18 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C6F7FF052466A0210015849A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C6F7FEE7246674700015849A /* AppDelegate.swift */,
+				C6F7FEE9246674700015849A /* SceneDelegate.swift */,
+				C6F7FEED246674730015849A /* Assets.xcassets */,
+				C6F7FEF2246674730015849A /* LaunchScreen.storyboard */,
+				C6F7FEF5246674730015849A /* Info.plist */,
+			);
+			name = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
