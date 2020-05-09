@@ -11,13 +11,15 @@ import SwiftUI
 struct ContentHeaderView: View {
     var body: some View {
         VStack {
-            Text("Helloo Pizza!!!")
-                .font(.largeTitle)
-            Image("Surf Board")
-                .resizable()
-                .scaledToFit()
+            ZStack {
+                Image("Surf Board")
+                    .resizable()
+                    .scaledToFit()
+                Text("Helloo Pizza!!!")
+                    .font(.title)
+            }
             Text("Order Pizza")
-                .font(.title)
+                .font(.largeTitle)
         }
     }
 }
