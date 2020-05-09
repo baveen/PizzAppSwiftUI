@@ -19,6 +19,10 @@
 		C6F7FF072466A6C60015849A /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7FF062466A6C60015849A /* MenuRowView.swift */; };
 		C6F7FF092466A6D40015849A /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7FF082466A6D40015849A /* RatingsView.swift */; };
 		C6F7FF0B2466A7570015849A /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7FF0A2466A7570015849A /* OrderRowView.swift */; };
+		C6F7FF0D2466A9B40015849A /* PizzaHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7FF0C2466A9B40015849A /* PizzaHistoryView.swift */; };
+		C6F7FF0F2466A9E10015849A /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7FF0E2466A9E10015849A /* PageTitleView.swift */; };
+		C6F7FF112466AACF0015849A /* HistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7FF102466AACF0015849A /* HistoryRowView.swift */; };
+		C6F7FF132466AC3C0015849A /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7FF122466AC3C0015849A /* HistoryListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		C6F7FF062466A6C60015849A /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
 		C6F7FF082466A6D40015849A /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
 		C6F7FF0A2466A7570015849A /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		C6F7FF0C2466A9B40015849A /* PizzaHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaHistoryView.swift; sourceTree = "<group>"; };
+		C6F7FF0E2466A9E10015849A /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		C6F7FF102466AACF0015849A /* HistoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowView.swift; sourceTree = "<group>"; };
+		C6F7FF122466AC3C0015849A /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +76,13 @@
 		C6F7FEE6246674700015849A /* PizzApp */ = {
 			isa = PBXGroup;
 			children = (
+				C6F7FEEB246674700015849A /* ContentView.swift */,
+				C6F7FF0324669DBC0015849A /* ContentHeaderView.swift */,
+				C6F7FF0E2466A9E10015849A /* PageTitleView.swift */,
 				C6F7FF0024669CBB0015849A /* Model */,
 				C6F7FEFF24669CB30015849A /* HistoryView */,
 				C6F7FEFE24669CAB0015849A /* MenuView */,
 				C6F7FEFB24669BFD0015849A /* OrderView */,
-				C6F7FEEB246674700015849A /* ContentView.swift */,
-				C6F7FF0324669DBC0015849A /* ContentHeaderView.swift */,
 				C6F7FF052466A0210015849A /* Others */,
 				C6F7FEEF246674730015849A /* Preview Content */,
 			);
@@ -110,6 +119,9 @@
 		C6F7FEFF24669CB30015849A /* HistoryView */ = {
 			isa = PBXGroup;
 			children = (
+				C6F7FF0C2466A9B40015849A /* PizzaHistoryView.swift */,
+				C6F7FF102466AACF0015849A /* HistoryRowView.swift */,
+				C6F7FF122466AC3C0015849A /* HistoryListView.swift */,
 			);
 			path = HistoryView;
 			sourceTree = "<group>";
@@ -204,7 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F7FF112466AACF0015849A /* HistoryRowView.swift in Sources */,
 				C6F7FF0B2466A7570015849A /* OrderRowView.swift in Sources */,
+				C6F7FF132466AC3C0015849A /* HistoryListView.swift in Sources */,
+				C6F7FF0F2466A9E10015849A /* PageTitleView.swift in Sources */,
 				C6F7FEE8246674700015849A /* AppDelegate.swift in Sources */,
 				C6F7FF0224669CD60015849A /* MenuListView.swift in Sources */,
 				C6F7FEFD24669C190015849A /* OrderListView.swift in Sources */,
@@ -212,6 +227,7 @@
 				C6F7FEEA246674700015849A /* SceneDelegate.swift in Sources */,
 				C6F7FF072466A6C60015849A /* MenuRowView.swift in Sources */,
 				C6F7FEEC246674700015849A /* ContentView.swift in Sources */,
+				C6F7FF0D2466A9B40015849A /* PizzaHistoryView.swift in Sources */,
 				C6F7FF092466A6D40015849A /* RatingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
